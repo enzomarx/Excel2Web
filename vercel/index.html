@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Excel2Web — Generate websites from Excel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #d641a1;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 700px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 2px solid #000;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #a8e636;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 
+                   -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      margin: 1rem 0 2rem;
+    }
+
+    ul {
+      text-align: left;
+      margin: 2rem auto;
+      max-width: 400px;
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✓ ";
+      color: #a8e636;
+      font-weight: bold;
+    }
+
+    .button {
+      margin-top: 2rem;
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #a8e636;
+      color: #000;
+      border: 2px solid #000;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ffffffaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets\Simpol logo for something 4.png" alt="Excel2Web logo" class="logo" />
+    <h1>Excel2Web</h1>
+    <div class="subtitle">Turn your spreadsheet into a real website with one click</div>
+
+    <ul>
+      <li>Design your content directly in Excel</li>
+      <li>Generate a full HTML website automatically</li>
+      <li>Deploy it with GitHub + Vercel in seconds</li>
+    </ul>
+
+    <button class="button" onclick="alert('Coming soon: GitHub integration')">
+      Connect with GitHub
+    </button>
+
+    <footer>
+      &copy; 2025 Excel2Web. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
